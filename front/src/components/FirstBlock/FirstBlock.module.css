@@ -1,0 +1,13 @@
+.roomWidth {
+    margin-left: 13px;
+    margin-right: 5px;
+    width: 50px;
+}
+.roomLength {
+    margin-left: 27.3px;
+    width: 50px;
+    margin-right: 5px;
+}
+.firstSection {
+    color:#4b252d;
+}

@@ -1,0 +1,66 @@
+.wrapper {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-left: 0%;
+    padding-inline-start: 0px;
+
+}
+
+li {
+    list-style: none;
+
+}
+
+li a{
+    text-decoration: none !important;
+    color: azure;
+    transition: all 0.2s ease-in-out 0.1s;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-bottom: 3px;
+}
+
+li a:hover{
+    border-bottom: 4px solid #d6b33d;
+}
+
+
+.logoImg {
+    content: url(./../../img/parket-broker-sign.svg);
+}
+
+.logoText {
+    content: url(./../../img/parket-broker-logo.svg);
+    padding-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.zakaz {
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    height: 13px;
+    padding-bottom: 20px;
+}
